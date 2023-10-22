@@ -1,5 +1,5 @@
-function greet(msg: string) {
-  console.log(msg)
+function greet(msg: string): string {
+  return msg
 }
 
 greet('Hello')
