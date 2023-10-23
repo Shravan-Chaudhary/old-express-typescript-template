@@ -1,5 +1,9 @@
 function greet(msg: string): string {
-  return msg
+  const user = {
+    name: 'shravan',
+  }
+  const name = user['name']
+  return msg + name
 }
 
 greet('Hello')
